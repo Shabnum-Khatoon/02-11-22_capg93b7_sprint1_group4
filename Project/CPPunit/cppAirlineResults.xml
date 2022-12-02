@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="2">
+      <Name>TesterAirline::testinformation</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>TesterAirline.cpp</File>
+        <Line>51</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: &quot;joy&quot; == d1-&gt;getingormation()
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>TesterAirline::testinformation</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>2</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>
